@@ -1,28 +1,47 @@
 # Kioptriox-level-1
 
-## Objective
+# Objective
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+Successfully identify and exploit vulnerabilities in Kioptrix Level 1, a deliberately vulnerable virtual machine, to gain root access. This exercise focuses on fundamental penetration testing skills including reconnaissance, enumeration, vulnerability analysis, and exploitation.
 
-### Skills Learned
+**Target:** Kioptrix Level 1  
+**Goal:** Root Shell Access ✅  
+**Assessment Date:** January 15, 2026
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+## Skills Learned
 
-### Tools Used
+- Network reconnaissance and host discovery using `netdiscover` and `nmap`
+- Service enumeration and version detection
+- SMB/Samba service enumeration with `smbclient`
+- Vulnerability research using `searchsploit` and online databases
+- Buffer overflow exploitation (Samba trans2open CVE-2003-0201)
+- Compiling and executing C-based exploits
+- Post-exploitation privilege verification
+- Professional penetration testing report writing
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+## Tools Used
 
-## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+- **Kali Linux 2025** - Primary attack platform
+- **nmap** - Network scanning and service enumeration
+- **netdiscover** - Network host discovery
+- **smbclient** - SMB/CIFS service enumeration
+- **searchsploit** - Local exploit database search
+- **Metasploit Framework** - Auxiliary scanning modules
+- **gcc** - Exploit compilation
+- **VirtualBox** - Virtualization environment
 
-Every screenshot should have some text explaining what the screenshot is about.
+## Full Report
 
-Example below.
+For detailed technical analysis, exploitation steps, screenshots, and remediation recommendations, please refer to the complete penetration testing report:
 
-*Ref 1: Network Diagram*
+📄 **[![View Report](https://img.shields.io/badge/View-Report-blue?style=for-the-badge)](./Kioptrix_Level1_Pentest_Report.pdf)**
+
+The report includes:
+- Executive summary with key findings
+- Complete methodology and testing approach
+- Detailed enumeration results
+- Step-by-step exploitation process with screenshots
+- Proof of root access
+- Comprehensive security recommendations
+
+---
