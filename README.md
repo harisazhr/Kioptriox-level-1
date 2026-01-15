@@ -15,9 +15,6 @@ Successfully identify and exploit vulnerabilities in Kioptrix Level 1, a deliber
 - SMB/Samba service enumeration with `smbclient`
 - Vulnerability research using `searchsploit` and online databases
 - Buffer overflow exploitation (Samba trans2open CVE-2003-0201)
-- Compiling and executing C-based exploits
-- Post-exploitation privilege verification
-- Professional penetration testing report writing
 
 ## Tools Used
 
